@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev server.ts",
-    "build": "tsc",
+    "build": "./node_modules/typescript/bin/tsc",
     "start": "node dist/server.js"
   },
   "keywords": [],
